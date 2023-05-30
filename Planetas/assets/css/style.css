@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* configuração global de todos os links */
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url('../img/mars-brackground.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head{
+display: flex;
+padding-top: 1%;
+}
+.head a{
+    margin-left: 2%;
+    margin-right: 4%;
+    color: #fff;
+}
+
+.marte{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-left:5rem;
+}
+.marte img{
+    width: 400px;
+}
+.texto{
+    width: 30%;
+    margin-left: 20%;
+}
+.texto p{
+    text-align: justify;
+    font-size: 20px;
+    color: #fff;
+}
+
+.texto p:hover{
+cursor:default;
+}
+
+#nasa{
+    width: 5%;
+}
